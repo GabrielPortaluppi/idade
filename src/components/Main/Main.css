@@ -1,0 +1,21 @@
+.container__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__section {
+    display: flex;
+    background-color: white;
+    width: 370px;
+    height: 500px;
+    border-radius: 20px;
+    border-bottom-right-radius: 9em;
+}
+
+@media screen and (min-width: 1200px) {
+    .container__section {
+        width: 600px;
+    }
+}

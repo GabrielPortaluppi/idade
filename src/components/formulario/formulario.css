@@ -1,0 +1,98 @@
+.container__formulario {
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__div {
+    display: flex;
+    margin-left: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.form label {
+    font-weight: 700;
+    color: var(--borda-cor-placeholder);
+    font-size: 18px;
+    text-align: center;
+}
+
+.form input {
+    width: 60px;
+    padding: 12px;
+    font-size:17px ;
+    border: 2px solid;
+    border-color: var(--fundo);
+    color: var(--letra);
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.form input::placeholder {
+    font-weight: 700;
+    color: var(--borda-cor-placeholder);
+}
+
+.mensagem__erro {
+    color: var(--erro-form);
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.botao {
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+    background-color: var(--purple);
+    border-radius: 50%;
+    border: none;
+    width: 80px;
+}
+
+.imagem {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+    .form {
+        margin-left: 30px;
+    }
+    
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    .inputs label {
+        font-size: 20px;
+    }
+
+    .inputs input {
+        width: 90px;
+        font-size: 20px;
+    }
+
+    .form input::placeholder {
+        font-size: 20px;
+    }
+
+    .mensagem__erro {
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
